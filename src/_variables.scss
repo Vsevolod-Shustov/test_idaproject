@@ -9,7 +9,7 @@
   font-family: "Source Sans Pro";
   font-style: normal;
   font-weight: 600;
-  src: url("../public/fonts/SourceSansPro-Semibold.ttf") format("truetype");
+  src: url("../public/fonts/SourceSansPro-SemiBold.ttf") format("truetype");
 }
 
 @font-face {
@@ -19,6 +19,24 @@
   src: url("../public/fonts/SourceSansPro-Bold.ttf") format("truetype");
 }
 
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 400;
+  src: url("../public/fonts/Inter-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  src: url("../public/fonts/Inter-SemiBold.ttf") format("truetype");
+}
+
 $max-width: 1440px;
 $text-color: #3f3f3f;
 $app-background: rgba(255, 254, 251, 0.8);
+$darks-lesser: #49485E;
+$white1: #FFFEFB;
+$grey500: #B4B4B4;

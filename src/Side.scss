@@ -1,16 +1,72 @@
 @import 'variables';
 
 #aside {
+  background: #FFFEFB;
+  box-shadow: 0px 20px 30px rgba(0, 0, 0, 0.04), 0px 6px 10px rgba(0, 0, 0, 0.02);
+  border-radius: 4px;
+  padding:24px;
   .heading2 {
     font-style: normal;
     font-weight: 600;
     font-size: 28px;
     line-height: 35px;
   }
+  label {
+    color: $darks-lesser;
+    font-size:10px;
+    line-height: 13px;
+    letter-spacing: -0.02em;
+    &>input,
+    &>textarea{
+      display:block;
+      margin:4px 0 16px;
+      padding:10px 16px 11px;
+      width:100%;
+      border:none;
+      background: $white1;
+      box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.1);
+      border-radius: 4px;
+      font-size: 12px;
+      line-height: 15px;
+      color: $grey500;
+    }
+    input {
+
+    }
+    textarea {
+      resize:vertical;
+      padding:10px 16px;
+      height:108px;
+    }
+    .required_star {
+      color:red;
+    }
+  }
+  .submit {
+    font-family: Inter, sans-serif;
+    border:none;
+    margin-top:8px;
+    width:100%;
+    background: #EEEEEE;
+    border-radius: 10px;
+    padding:10px 16px 11px;
+    font-weight: 600;
+    font-size: 12px;
+    line-height: 15px;
+    text-align: center;
+    letter-spacing: -0.02em;
+    color:$grey500;
+    &:hover {
+      background: #7BAE73;
+      box-shadow: 0px 2px 4px rgba(0, 0, 0, 0.1);
+      color:white;
+    }
+  }
 }
 
 @media (min-width:1440px) {
   #aside {
     order:1;
+    width:332px;
   }
 }
