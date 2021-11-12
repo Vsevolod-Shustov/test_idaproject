@@ -5,4 +5,12 @@
   color:$text-color;
   width:100%;
   max-width:$max-width;
+  background-color: $app-background;
+}
+
+@media (min-width:1440px) {
+  #app{
+    display:flex;
+    padding:32px;
+  }
 }

@@ -4,8 +4,8 @@ import styles from './Side.scss';
 
 function Side(){
   return (
-    <aside id={styles.side}>
-    side
+    <aside id={styles.aside}>
+      <h2 className={styles.heading2}>Добавление товара</h2>
     </aside>
   )
 }

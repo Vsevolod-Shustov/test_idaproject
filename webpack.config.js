@@ -53,6 +53,10 @@ module.exports = {
       {
         test: /\.(png|jpe?g|gif)$/i,
         use: 'file-loader',
+      },
+      {
+        test: /\.(woff|woff2|eot|ttf|otf)$/i,
+        type: 'asset/resource',
       }
     ],
   },

@@ -1,5 +1,17 @@
 @import 'variables';
 
 #aside {
+  .heading2 {
+    font-family: SourceSansPro;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 35px;
+  }
+}
 
+@media (min-width:1440px) {
+  #aside {
+    order:1;
+  }
 }
